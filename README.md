@@ -28,6 +28,12 @@ cp -r <你的 d2admin 项目路径>/dist/* <本项目路径>/public
 npm run electron:build
 ```
 
+## Electron 下载镜像
+
+```bash
+export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+```
+
 ## 打包过程中卡在下载 winCodeSign 等文件上？
 
 请手动下载这些文件，并且 **解压** 到相应目录，具体请看 [这里](https://github.com/electron-userland/electron-builder/issues/1859)
